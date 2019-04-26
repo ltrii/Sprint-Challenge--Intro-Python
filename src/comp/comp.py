@@ -80,7 +80,7 @@ print(f)
 print("All names capitalized:")
 g = []
 for x in humans:
-    g.append(x.name.upper())
+    g.append((x.name.upper(), x.age + 5))
 print(g)
 
 # Write a list comprehension that contains the square root of all the ages.
